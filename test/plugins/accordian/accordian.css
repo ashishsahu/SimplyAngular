@@ -1,0 +1,33 @@
+.accordion {width:100%;}
+.accordion dt {width:100%; padding:10px 0 10px 0; cursor:pointer; color:#fff; font:400 15px  'Roboto', sans-serif;
+background-color:#db5c12; background-image:url(../../images/icons/plus-icon.png); background-repeat:no-repeat; 
+background-position:98%; text-indent:10px; margin-bottom:1px;}
+.accordion dt:hover {background-color:#7a9d28}
+.accordion .open {background-color:#7a9d28; background-image:url(../../images/icons/minus-icon.png)}
+.accordion dd {overflow:hidden; background:#fff; height:101px;}
+.accordion table {display:block; width:100%;}
+.accordion table td{padding:10px; vertical-align:top}
+
+.accordion table td:first-child{width:60%;}
+.accordion table td:last-child{text-align:right; width:30%;}
+.accordion table td h4{font-size:18px; color:#cf2027;}
+
+
+
+.innaccordion {width:100%;}
+.innaccordion dt {width:100%; padding:10px 0 10px 0; cursor:pointer; color:#fff; font:400 15px  'Roboto', sans-serif;
+background-color:#db5c12; background-image:url(../../images/icons/plus-icon.png); background-repeat:no-repeat; 
+background-position:98%; text-indent:10px; margin-bottom:1px; position:relative;}
+.innaccordion dt:hover {background-color:#7a9d28}
+.innaccordion .open {background-color:#7a9d28; background-image:url(../../images/icons/minus-icon.png)}
+.innaccordion dd { /*height:101px; */background:#f1f1f1; overflow: scroll}
+.innaccordion dd p{margin:5px 0;}
+.innaccordion dd:before,  .innaccordion dd:after { content: " "; display: table; }
+.innaccordion dd:after {clear: both; }
+
+.innaccordion dd .allpad{padding:0px 10px;}
+.accordion .accscroll
+{
+    height: 100px;
+    overflow: auto;
+}

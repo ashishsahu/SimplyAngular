@@ -1,0 +1,1116 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Trip Login</title>
+
+<!-- Mobile Specific -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!--Favicons-->
+<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+<!-- Css -->
+<link rel="stylesheet" href="css/screen.css">
+<link rel="stylesheet" href="css/form.css">
+
+<!--Fonts awesome-->
+<link rel="stylesheet" href="font-awesome/font-awesome.css">
+
+<!--Google webfonts url-->
+
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<![endif]-->
+
+<!-- Java Script -->
+<script src="js/jquery-1.10.1.min.js"> </script>
+<script src="js/jquery-migrate-1.2.1.js"> </script>
+
+<!-- Loader -->
+<!--<script src="js/queryloader.js"></script>
+<script>
+$(document).ready(function () {
+$("body").queryLoader2({
+barColor: "#FFF",
+backgroundColor: "#2f5dbb",
+percentage: true,
+barHeight: 1,
+completeAnimation: "grow",
+minimumTime: 100
+});
+});
+</script>
+-->
+
+</head>
+<body class="cbp-spmenu-push">
+
+<!--header start-->
+<article class="navbar-fixed-top" style="overflow:visible !important">
+  <header> 
+    <!--top section start-->
+    <section class="top-header row"> 
+      <!--col start-->
+      <aside class="fultwocol">
+        <h1 class="logo"><img src="images/logo.jpg" alt="" class="img-responsive"></h1>
+      </aside>
+      <!--col end--> 
+      
+      <!--col start-->
+      <aside class="fulsixcol">
+        <nav class="topnav">
+          <ul>
+            <li> <a href="#">Information</a>
+              <div class="dropdown-block">
+                <h3>Information About India</h3>
+              </div>
+            </li>
+            <li> <a href="#">Explore</a>
+              <div class="dropdown-block">
+                <h3>Explore dropdown</h3>
+              </div>
+            </li>
+            <li> <a href="#">Plan</a>
+              <div class="dropdown-block">
+                <h3>Plan dropdown</h3>
+              </div>
+            </li>
+            <li> <a href="#">Destinations</a>
+              <div class="dropdown-block">
+                <h3>Destinations dropdown</h3>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <!--col end--> 
+      
+      <!--col start-->
+      <aside class="fultwocol">
+        <h1 class="talogo"><img src="images/tripadvisor-logo.png" alt="" class="img-responsive"></h1>
+      </aside>
+      <!--col end--> 
+      
+      <!--col start-->
+      <aside class="fultwocol">
+        <h1 class="callus"><img src="images/incredible-india.jpg" alt="" class="img-responsive"></h1>
+      </aside>
+      <!--col end--> 
+      <span class="clear"></span> </section>
+    <!--top section end--> 
+    
+    <!--top section start-->
+    <section class="btm-header">
+      <nav class="btmnav row">
+        <ul>
+          <li> <a href="#">Travellers</a>
+            <div class="dropdown-block">
+              <h3>Travellers dropdown</h3>
+              <aside class="fourcol"> This is four col dummy </aside>
+              <aside class="fourcol"> This is four col dummy </aside>
+              <aside class="fourcol last"> This is four col dummy </aside>
+            </div>
+          </li>
+          <li> <a href="#">Packages</a>
+            <div class="dropdown-block">
+              <h3>Packages dropdown</h3>
+              <aside class="threecol"> This is three col dummy </aside>
+              <aside class="threecol"> This is three col dummy </aside>
+              <aside class="threecol"> This is three col dummy </aside>
+              <aside class="threecol last"> This is three col dummy </aside>
+            </div>
+          </li>
+          <li> <a href="#">International</a>
+            <div class="dropdown-block">
+              <h3>International dropdown</h3>
+              <aside class="fourcol"> This is four col dummy </aside>
+              <aside class="fourcol"> This is four col dummy </aside>
+              <aside class="fourcol last"> This is four col dummy </aside>
+            </div>
+          </li>
+          <li> <a href="#">Holiday Special</a>
+            <div class="dropdown-block">
+              <h3>Holiday Special dropdown</h3>
+              <aside class="twocol"> This is Two col dummy </aside>
+              <aside class="fivecol"> This is three col dummy </aside>
+              <aside class="twocol"> This is Two col dummy </aside>
+              <aside class="threecol last"> This is Five col dummy </aside>
+            </div>
+          </li>
+          <li> <a href="#">Honeymoon Special</a>
+            <div class="dropdown-block">
+              <h3>Honeymoon Special dropdown</h3>
+              <aside class="threecol"> This is three col dummy </aside>
+              <aside class="threecol"> This is three col dummy </aside>
+              <aside class="threecol"> This is three col dummy </aside>
+              <aside class="threecol last"> This is three col dummy </aside>
+            </div>
+          </li>
+          <li> <a href="#">Browse Destinations by Regions of India</a>
+            <div class="dropdown-block">
+              <h3>Browse Destinations by Regions of India dropdown</h3>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <span class="clear"></span> </section>
+    <!--top section end--> 
+  </header>
+</article>
+<!--header end--> 
+
+<!--slide nav start-->
+<article class="slidenav">
+  <section class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+    <h2>TripLogin</h2>
+    <a href="#">About</a> <a href="#">Explore</a> <a href="#">Plan</a> <a href="#">Destinations</a> <a href="#">Travellers</a> <a href="#">Packages</a> <a href="#">International</a> <a href="#">Holiday Special</a> <a href="#">Honeymoon Special</a> <a href="#">Browse Destinations by Regions of India</a> </section>
+  <section class="pushmenu">
+    <p id="showLeftPush"><img src="images/nav-icon.png" alt=""></p>
+  </section>
+</article>
+<!--slide nav close--> 
+
+<!-- home search start-->
+<article class="big-search-bar-home">
+  <section class="home-search">
+    <aside class="twocol">&nbsp;</aside>
+    <aside class="eightcol">
+      <h1 class="planheading">Plan Your Perfect Trip! <small>More than 1200 Package Options</small></h1>
+      <div class="search-box">
+        <form action="" method="post">
+          <aside class="fultencol">
+            <input name="" type="text" placeholder="Where do you want to go?" class="imap">
+          </aside>
+          <aside class="fultwocol">
+            <input type="submit" value="" class="isearch-btn">
+          </aside>
+          <span class="clear"> </span>
+        </form>
+      </div>
+    </aside>
+    <aside class="twocol">&nbsp;</aside>
+  </section>
+  <span class="clear"> </span> </article>
+<!-- home search end --> 
+
+<!-- content start-->
+<article class="row content-section"> 
+  
+  <!--tab section start-->
+  <section class="eightcol">
+    <figure class="findpackage-warp"> 
+      <!--tab wrapper start-->
+      <section class="findpackage-tab">
+        <div class="tabselectwrap"> 
+          <!--tab nav start-->
+          <ul class="tab">
+            <li class="active"><a href="#packages">Packages</a></li>
+            <li><a href="#hotels">Hotels</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#sightseeing">Sight Seeing</a></li>
+            <li><a href="#howreach">How to Reach</a></li>
+          </ul>
+          <!--tab nav close--> 
+        </div>
+        <!--tab detail start--> 
+        
+        <!--packages detail start-->
+        <article class="content-tab" id="packages">
+          <form action="" method="post" enctype=" ">
+            <div class="twelvecol">
+              <h6>Find Packages in Select destination</h6>
+              <input name="" type="text" placeholder="Select destination">
+            </div>
+            <div class="fourcol">
+              <h6>Price <small>(optional)</small></h6>
+              <input name="" type="text" placeholder="Select destination">
+            </div>
+            <div class="fivecol">
+              <h6>Number of days <small>(optional)</small></h6>
+              <input name="" type="text" placeholder="Select destination">
+            </div>
+            <div class="threecol last">
+              <input name="" type="submit" value="Find Package" class="findpackage">
+            </div>
+          </form>
+        </article>
+        <!--packages detail close--> 
+        
+        <!--packages detail start-->
+        <article class="content-tab" id="hotels"> Hotels </article>
+        <!--packages detail close--> 
+        
+        <!--packages detail start-->
+        <article class="content-tab" id="destinations"> Destinations </article>
+        <!--packages detail close--> 
+        
+        <!--packages detail start-->
+        <article class="content-tab" id="sightseeing"> Sight Seeing </article>
+        <!--packages detail close--> 
+        
+        <!--packages detail start-->
+        <article class="content-tab" id="howreach"> How to Reach </article>
+        <!--packages detail close--> 
+        
+        <!--tab detail close--> 
+        <span class="clear"></span> </section>
+      <!--tab wrapper end--> 
+      
+      <!--tab wrapper start-->
+      <section class="packageslider">
+        <div id="packageslider" class="flexslider carousel">
+          <ul class="slides">
+            <li> <img src="images/package-slider/package-2.jpg" alt="" />
+              <figure class="flex-caption">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td>Kerala</td>
+                    <td><p class="dayz">8N-9D <small class="rs WebRupee">&#x20B9; 33,762</small></p></td>
+                  </tr>
+                </table>
+              </figure>
+            </li>
+            <li> <img src="images/package-slider/package-1.jpg" alt="" />
+              <figure class="flex-caption">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td>Kerala</td>
+                    <td><p class="dayz">8N-9D <small class="rs WebRupee">&#x20B9; 33,762</small></p></td>
+                  </tr>
+                </table>
+              </figure>
+            </li>
+            <li> <img src="images/package-slider/package-2.jpg" alt="" />
+              <figure class="flex-caption">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td>Kerala</td>
+                    <td><p class="dayz">8N-9D <small class="rs WebRupee">&#x20B9; 33,762</small></p></td>
+                  </tr>
+                </table>
+              </figure>
+            </li>
+            <li> <img src="images/package-slider/package-2.jpg" alt="" />
+              <figure class="flex-caption">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td>Kerala</td>
+                    <td><p class="dayz">8N-9D <small class="rs WebRupee">&#x20B9; 33,762</small></p></td>
+                  </tr>
+                </table>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--tab wrapper end--> 
+    </figure>
+  </section>
+  <!--tab section close--> 
+  
+  <!--why trip section start-->
+  <section class="fourcol last">
+    <figure class="whytl-warp">
+      <h3 class="title">Why MyHolidayTrip?</h3>
+      <img src="images/why-trip.jpg" alt="">
+      <div class="black-opac">
+        <ul class="haldi">
+          <li>Over <span class="white">6,000 hotels</span> in India, more than <span class="white">90,000 hotels</span> worldwide</li>
+          <li>Book now and save upto <span class="white">80%.</span></li>
+          <li><span class="white">Great Offers</span> on Flight + Hotel packages.</li>
+          <li><span class="white">Avoid risks</span> related to online payments.</li>
+        </ul>
+      </div>
+    </figure>
+  </section>
+  <!--<span class="clear"></span>--> 
+  <!--why trip section close-->
+  <section class="twelvecol"> </section>
+  <section class="twelvecol"> 
+    
+    <!--discover section start-->
+    <section class="eightcol">
+      <figure class="discover-warp" style="height: 280px; padding: 20px; background-color: #FAFAFA;"> 
+        <!--        <h3 class="title-white">Discover why there is nothing like KERALA</h3>-->
+        <div id="discover-slider" class="flexslider" >
+          <ul class="slides" style="height: 260px; background-color: #FAFAFA; ">
+            <li>
+              <div>
+                <h2>KERALA, THE GOD's OWN COUNTRY</h2>
+                <br />
+                <p style="font-size: 13px; color: #333">Kerala is a perfect destination for adventure, culture and relaxation. With its laid-back beach scene, swaying elephant rides and gentle houseboat cruises along tropical backwaters, you'll soon see why National Geographic Traveller voted Kerala one of its ten Paradise Found'. <br />
+                  <br />
+                  There are many fascinating elements that make Kerala a good tourist spot.
+                  
+                  Of them the thick forests with coconut trees allure many people all over the world. The hospitality shown by the keralites makes people to visit Kerala often. The Literacy rate here is almost 100%, the only state to have all literates in India. <br />
+                  <br />
+                  The Travel Planners has won the National Tourism Award from the Ministry of Tourism Government of India for the category Best Inbound Tour Operator in Kerala, India for the quality and outstanding Holiday Packages prepared and executed to large number of tourists visited from around the world to India. </p>
+                <br />
+                <br />
+                <a href="#">Read More</a> | <a href="#">Explore Packages</a> </div>
+            </li>
+            <li>
+              <div>
+                <h2>HIMACHAL PRADESH - THE DREAM DESTINATION</h2>
+                <br />
+                <p style="font-size: 13px; color: #333">Kerala is a perfect destination for adventure, culture and relaxation. With its laid-back beach scene, swaying elephant rides and gentle houseboat cruises along tropical backwaters, you'll soon see why National Geographic Traveller voted Kerala one of its ten Paradise Found'. <br />
+                  <br />
+                  There are many fascinating elements that make Kerala a good tourist spot.
+                  
+                  Of them the thick forests with coconut trees allure many people all over the world. The hospitality shown by the keralites makes people to visit Kerala often. <br />
+                  <br />
+                  The Literacy rate here is almost 100%, the only state to have all literates in India.
+                  
+                  The Travel Planners has won the National Tourism Award from the Ministry of Tourism Government of India for the category Best Inbound Tour Operator in Kerala, India for the quality and outstanding Holiday Packages prepared and executed to large number of tourists visited from around the world to India. </p>
+                <br />
+                <br />
+                <a href="#">Read More</a> | <a href="#">Explore Packages</a> </div>
+            </li>
+            <li>
+              <div>
+                <h2>KASHMIR - A PARADISE ON EARTH</h2>
+                <br />
+                <p style="font-size: 13px; color: #333">Kerala is a perfect destination for adventure, culture and relaxation. With its laid-back beach scene, swaying elephant rides and gentle houseboat cruises along tropical backwaters, you'll soon see why National Geographic Traveller voted Kerala one of its ten Paradise Found'. <br />
+                  <br />
+                  There are many fascinating elements that make Kerala a good tourist spot.
+                  
+                  Of them the thick forests with coconut trees allure many people all over the world. The hospitality shown by the keralites makes people to visit Kerala often. The Literacy rate here is almost 100%, the only state to have all literates in India. <br />
+                  <br />
+                  The Travel Planners has won the National Tourism Award from the Ministry of Tourism Government of India for the category Best Inbound Tour Operator in Kerala, India for the quality and outstanding Holiday Packages prepared and executed to large number of tourists visited from around the world to India. </p>
+                <br />
+                <br />
+                <a href="#">Read More</a> | <a href="#">Explore Packages</a> </div>
+            </li>
+            <li>
+              <div>
+                <h2>NORTH EAST - EXPLORE THE SECRETS</h2>
+                <br />
+                <p style="font-size: 13px; color: #333">Kerala is a perfect destination for adventure, culture and relaxation. With its laid-back beach scene, swaying elephant rides and gentle houseboat cruises along tropical backwaters, you'll soon see why National Geographic Traveller voted Kerala one of its ten Paradise Found'. <br />
+                  <br />
+                  There are many fascinating elements that make Kerala a good tourist spot.
+                  
+                  Of them the thick forests with coconut trees allure many people all over the world. The hospitality shown by the keralites makes people to visit Kerala often. The Literacy rate here is almost 100%, the only state to have all literates in India. <br />
+                  <br />
+                  The Travel Planners has won the National Tourism Award from the Ministry of Tourism Government of India for the category Best Inbound Tour Operator in Kerala, India for the quality and outstanding Holiday Packages prepared and executed to large number of tourists visited from around the world to India. </p>
+                <br />
+                <br />
+                <a href="#">Read More</a> | <a href="#">Explore Packages</a> </div>
+            </li>
+          </ul>
+        </div>
+      </figure>
+    </section>
+    <!--discover section end--> 
+    <!--news section start-->
+    <section class="fourcol last">
+      <figure class="newsflash-warp" style="height: 320px">
+        <h3 class="title-white">Virtual Tour</h3>
+        <div id="news-slider" class="flexslider">
+          <ul class="slides" style="height: 300px">
+            <li>
+              <iframe width="100%" height="300" src="http://www.youtube.com/embed/sY3PcH0yE5k" frameborder="0" allowfullscreen></iframe>
+              <figure class="flex-caption">
+                <p>kerala Tourism video " Munnar, alleppey and Kovalam"</p>
+              </figure>
+            </li>
+            <li>
+              <iframe width="100%" height="300" src="http://www.youtube.com/embed/Xnj4NHJQInQ" frameborder="0" allowfullscreen></iframe>
+              <figure class="flex-caption">
+                <p>Beautiful Alleppey Houseboats - Kerala, India</p>
+              </figure>
+            </li>
+            <li>
+              <iframe width="100%" height="300" src="http://www.youtube.com/embed/SzesG1FWKPM" frameborder="0" allowfullscreen></iframe>
+              <figure class="flex-caption">
+                <p>Kumarakom Lake Resort, Kerala</p>
+              </figure>
+            </li>
+            <li>
+              <iframe width="100%" height="300" src="http://www.youtube.com/embed/LoTmcmmaKqk" frameborder="0" allowfullscreen></iframe>
+              <figure class="flex-caption">
+                <p>Athirapally waterfalls - Valparai to Chalakkudy Road - Keralae</p>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </figure>
+    </section>
+    <!--news section end--> 
+  </section>
+  
+  <!--Package section start-->
+  <section class="twelvecol">
+    <figure class="kashmir-package-wrap special-offer" style="height:325px">
+      <h3 class="title-white">Our Best Selling Packages</h3>
+      <div id="kashmir-package-slider" class="flexslider carousel">
+        <ul class="slides" style="height: 270px;">
+          <li> <img src="images/bg-slides/bg-10.jpg" alt="" />
+            <figure class="flex-caption">
+              <h3>Kerala</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <p>Starting Price<br><span class="price"><del>र</del> 21,500</span></p>
+              <a href="#">View Details</a> </figure>
+          </li>
+          <li> <img src="images/bg-slides/bg-9.jpg" alt="" />
+            <figure class="flex-caption">
+              <h3>Kerala</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <p>Starting Price<br><span class="price"><del>र</del> 21,500</span></p>
+              <a href="#">View Details</a> </figure>
+          </li>
+          <li> <img src="images/bg-slides/bg-8.jpg" alt="" />
+            <figure class="flex-caption">
+              <h3>Kerala</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <p>Starting Price<br><span class="price"><del>र</del> 21,500</span></p>
+              <a href="#">View Details</a> </figure>
+          </li>
+          <li> <img src="images/bg-slides/bg-7.jpg" alt="" />
+            <figure class="flex-caption">
+              <h3>Kerala</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <p>Starting Price<br><span class="price"><del>र</del> 21,500</span></p>
+              <a href="#">View Details</a> </figure>
+          </li>
+          <li> <img src="images/bg-slides/bg-6.jpg" alt="" />
+            <figure class="flex-caption">
+              <h3>Kerala</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <p>Starting Price<br><span class="price"><del>र</del> 21,500</span></p>
+              <a href="#">View Details</a> </figure>
+          </li>
+          <li> <img src="images/bg-slides/bg-5.jpg" alt="" />
+            <figure class="flex-caption">
+              <h3>Kerala</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <p>Starting Price<br><span class="price"><del>र</del> 21,500</span></p>
+              <a href="#">View Details</a> </figure>
+          </li>
+          <li> <img src="images/bg-slides/bg-4.jpg" alt="" />
+            <figure class="flex-caption">
+              <h3>Kerala</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <p>Starting Price<br><span class="price"><del>र</del> 21,500</span></p>
+              <a href="#">View Details</a> </figure>
+          </li>
+          <li> <img src="images/bg-slides/bg-3.jpg" alt="" />
+            <figure class="flex-caption">
+              <h3>Kerala</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <p>Starting Price<br><span class="price"><del>र</del> 21,500</span></p>
+              <a href="#">View Details</a> </figure>
+          </li>
+        </ul>
+      </div>
+    </figure>
+  </section>
+  <!--Package section close--> 
+  
+  <!--<span class="clear"></span>--> 
+  
+  <!--tab dayz section start-->
+  <section class="twelvecol">
+    <section class="eightcol">
+      <figure class="selectdayz-warp"> 
+        <!--tab nav start-->
+        <h3 class="title lgreenbg">
+          <table width="100%" border="0">
+            <tr>
+              <td width="120px">Select Days:</td>
+              <td class="dayztab"><ul class="tabify">
+                  <li class="active"><a href="#3d">3Days</a></li>
+                  <li><a href="#4d">4Days</a></li>
+                  <li><a href="#5d">5Days</a></li>
+                  <li><a href="#6d">6Days</a></li>
+                  <li><a href="#7d">7Days</a></li>
+                  <li><a href="#8d">8Days</a></li>
+                  <li><a href="#9d">9Days</a></li>
+                </ul></td>
+            </tr>
+          </table>
+        </h3>
+        <!--tab nav close--> 
+        
+        <!--tab detail start-->
+        <article class="content-tab" style="background-color: #111" id="3d">
+          <ul class="dayzli">
+            <li class="fulfourcol">
+              <div> <img src="images/calendar-package/calendar-package-1.jpg" alt="" />
+                <figure class="caption">
+                  <div class="packname">Kerala A Lover’s Paradise</div>
+                  <p>Starting Price<br><span class="price"><del>&#2352;</del> 21,500</span></p>
+                </figure>
+              </div>
+            </li>
+            <li class="fulfourcol">
+              <div> <img src="images/calendar-package/calendar-package-2.jpg" alt="" />
+                <figure class="caption">
+                  <div class="packname">A Trip to Remember - Vythiri</div>
+                  <p>Starting Price<br><span class="price"><del>&#2352;</del> 21,500</span></p>
+                </figure>
+              </div>
+            </li>
+            <li class="fulfourcol">
+              <div> <img src="images/calendar-package/calendar-package-3.jpg" alt="" />
+                <figure class="caption">
+                  <div class="packname">Captivating Kerala</div>
+                  <p>Starting Price<br><span class="price"><del>&#2352;</del> 21,500</span></p>
+                </figure>
+              </div>
+            </li>
+            <li class="fulfourcol">
+              <div> <img src="images/calendar-package/calendar-package-4.jpg" alt="" />
+                <figure class="caption">
+                  <div class="packname">A Luxurious Getaway to Keral</div>
+                  <p>Starting Price<br><span class="price"><del>&#2352;</del> 21,500</span></p>
+                </figure>
+              </div>
+            </li>
+            <li class="fulfourcol">
+              <div> <img src="images/calendar-package/calendar-package-5.jpg" alt="" />
+                <figure class="caption">
+                  <div class="packname">Durga Puja Special</div>
+                  <p>Starting Price<br><span class="price"><del>&#2352;</del> 21,500</span></p>
+                </figure>
+              </div>
+            </li>
+            <li class="fulfourcol">
+              <div> <img src="images/calendar-package/calendar-package-6.jpg" alt="" />
+                <figure class="caption">
+                  <div class="packname">Best Indian Palace</div>
+                  <p>Starting Price<br>
+<span class="price"><del>&#2352;</del> 21,500</span></p></figure>
+              </div>
+            </li>
+          </ul>
+        </article>
+        <!--tab detail close--> 
+        
+        <!--tab detail start-->
+        <article class="content-tab" id="4d"> This is 4D discription </article>
+        <!--tab detail close--> 
+        
+        <!--tab detail start-->
+        <article class="content-tab" id="5d"> This is 5D discription </article>
+        <!--tab detail close--> 
+        
+        <!--tab detail start-->
+        <article class="content-tab" id="6d"> This is 6D discription </article>
+        <!--tab detail close--> 
+        
+        <!--tab detail start-->
+        <article class="content-tab" id="7d"> This is 7D discription </article>
+        <!--tab detail close--> 
+        
+        <!--tab detail start-->
+        <article class="content-tab" id="8d"> This is 8D discription </article>
+        <!--tab detail close--> 
+        
+        <!--tab detail start-->
+        <article class="content-tab" id="9d"> This is 9D discription </article>
+        <!--tab detail close--> 
+        
+        <!--tab detail close--> 
+        
+        <span class="clear"> </span> </figure>
+    </section>
+    <!--tab dayz section close--> 
+    
+    <!--hot deals section start-->
+    <section class="fourcol last">
+      <figure class="hotdeal-warp">
+        <h3 class="title redbg">Hot Deals</h3>
+        <article style="background:#fff;">
+          <div class="hotdeals">
+            <table width="100%" border="0">
+              <!--row start-->
+              <tr>
+                <td width="80px"><img src="images/package/kashmir-package-1.jpg" alt=""></td>
+                <td><p class="haldi"><a href="#">Kerala Honeymoon Special</a></p>
+                  <p>Cochin - Munnar - </p>
+                  <p>Thekkady</p></td>
+                <td><p>9N-10D</p>
+                  <p class="red WebRupee">&#x20B9; 45,183</p></td>
+              </tr>
+              <!--row class--> 
+              
+              <!--row start-->
+              <tr>
+                <td><img src="images/package/kashmir-package-2.jpg" alt=""></td>
+                <td><p class="haldi"><a href="#">Kerala Honeymoon Special</a></p>
+                  <p>Cochin - Munnar - </p>
+                  <p>Thekkady</p></td>
+                <td width="55px"><p>9N-10D</p>
+                  <p class="red WebRupee">&#x20B9; 45,183</p></td>
+              </tr>
+              <!--row class--> 
+              
+              <!--row start-->
+              <tr>
+                <td><img src="images/package/kashmir-package-1.jpg" alt=""></td>
+                <td><p class="haldi"><a href="#">Kerala Honeymoon Special</a></p>
+                  <p>Cochin - Munnar - Thekkady</p></td>
+                <td width="55px"><p>9N-10D</p>
+                  <p class="red WebRupee">&#x20B9; 45,183</p></td>
+              </tr>
+              <!--row class--> 
+              
+              <!--row start-->
+              <tr>
+                <td><img src="images/package/kashmir-package-2.jpg" alt=""></td>
+                <td><p class="haldi"><a href="#">Kerala Honeymoon Special</a></p>
+                  <p>Cochin - Munnar - </p>
+                  <p>Thekkady</p></td>
+                <td width="55px"><p>9N-10D</p>
+                  <p class="red WebRupee">&#x20B9; 45,183</p></td>
+              </tr>
+              <!--row class--> 
+              <!--row start-->
+              <tr>
+                <td><img src="images/package/kashmir-package-2.jpg" alt=""></td>
+                <td><p class="haldi"><a href="#">Kerala Honeymoon Special</a></p>
+                  <p>Cochin - Munnar - </p>
+                  <p>Thekkady</p></td>
+                <td width="55px"><p>9N-10D</p>
+                  <p class="red WebRupee">&#x20B9; 45,183</p></td>
+              </tr>
+              <!--row class-->
+            </table>
+          </div>
+        </article>
+      </figure>
+    </section>
+    
+    <!--hot deals section close--> 
+  </section>
+  <!--	<span class="clear"></span>--> 
+  
+  <!--Package section start-->
+  <section class="twelvecol">
+    <figure class="kerala-package-wrap"  style="height: 472px">
+      <h3 class="title-trans">Domestic Packages</h3>
+      <div id="kerala-package-slider" class="flexslider carousel">
+        <ul class="slides">
+          <li>
+            <div class="packagename">
+              <p> Best Indian Palace</p>
+            </div>
+            <img src="images/bg-slides/bg-10.jpg" />
+            <div class="caption2" >
+              <p>3 Nights/4 Days</p>
+              <p>Cochin - Munnar - Thekkedy - Cochin</p>
+              <p>Starting Price<br><span class="price"><del>र</del> 21,500</span></p>
+            </div>
+            <div>
+              <input class="sixcol btn btn-primary" type="button" name="" value="View Details">
+              <input class="sixcol btn btn-danger last" type="button" name="" value="Enquire">
+            </div>
+          </li>
+          <li>
+            <div class="packagename">
+              <p> Best Indian Palace</p>
+            </div>
+            <img src="images/bg-slides/bg-9.jpg" />
+            <div class="caption2">
+              <p>3 Nights/4 Days</p>
+              <p>Cochin - Munnar - Thekkedy - Cochin</p>
+             <p>Starting Price<br><span class="price"><del>र</del> 21,500</span></p>
+            </div>
+            <div>
+              <input class="sixcol btn btn-primary" type="button" name="" value="View Details">
+              <input class="sixcol btn btn-danger last" type="button" name="" value="Enquire">
+            </div>
+          </li>
+          <li>
+            <div class="packagename">
+              <p> Best Indian Palace</p>
+            </div>
+            <img src="images/bg-slides/bg-8.jpg" />
+            <div class="caption2">
+              <p>3 Nights/4 Days</p>
+              <p>Cochin - Munnar - Thekkedy - Cochin</p>
+             <p>Starting Price<br><span class="price"><del>र</del> 21,500</span></p>
+            </div>
+            <div>
+              <input class="sixcol btn btn-primary" type="button" name="" value="View Details">
+              <input class="sixcol btn btn-danger last" type="button" name="" value="Enquire">
+            </div>
+          </li>
+          <li>
+            <div class="packagename">
+              <p> Best Indian Palace</p>
+            </div>
+            <img src="images/bg-slides/bg-7.jpg" />
+            <div class="caption2">
+              <p>3 Nights/4 Days</p>
+              <p>Cochin - Munnar - Thekkedy - Cochin</p>
+              <p>Starting Price<br><span class="price"><del>र</del> 21,500</span></p>
+            </div>
+            <div>
+              <input class="sixcol btn btn-primary" type="button" name="" value="View Details">
+              <input class="sixcol btn btn-danger last" type="button" name="" value="Enquire">
+            </div>
+          </li>
+          <li>
+            <div class="packagename">
+              <p> Best Indian Palace</p>
+            </div>
+            <img src="images/bg-slides/bg-6.jpg" />
+            <div class="caption2">
+              <p>3 Nights/4 Days</p>
+              <p>Cochin - Munnar - Thekkedy - Cochin</p>
+              <p>Starting Price<br><span class="price"><del>र</del> 21,500</span></p>
+            </div>
+            <div>
+              <input class="sixcol btn btn-primary" type="button" name="" value="View Details">
+              <input class="sixcol btn btn-danger last" type="button" name="" value="Enquire">
+            </div>
+          </li>
+          <li>
+            <div class="packagename">
+              <p> Best Indian Palace</p>
+            </div>
+            <img src="images/bg-slides/bg-5.jpg" />
+            <div class="caption2">
+              <p>3 Nights/4 Days</p>
+              <p>Cochin - Munnar - Thekkedy - Cochin</p>
+              <p>Starting Price<br><span class="price"><del>र</del> 21,500</span></p>
+            </div>
+            <div>
+              <input class="sixcol btn btn-primary" type="button" name="" value="View Details">
+              <input class="sixcol btn btn-danger last" type="button" name="" value="Enquire">
+            </div>
+          </li>
+          <li>
+            <div class="packagename">
+              <p> Best Indian Palace</p>
+            </div>
+            <img src="images/bg-slides/bg-4.jpg" />
+            <div class="caption2">
+              <p>3 Nights/4 Days</p>
+              <p>Cochin - Munnar - Thekkedy - Cochin</p>
+             <p>Starting Price<br><span class="price"><del>र</del> 21,500</span></p>
+            </div>
+            <div>
+              <input class="sixcol btn btn-primary" type="button" name="" value="View Details">
+              <input class="sixcol btn btn-danger last" type="button" name="" value="Enquire">
+            </div>
+          </li>
+          <li>
+            <div class="packagename">
+              <p> Best Indian Palace</p>
+            </div>
+            <img src="images/bg-slides/bg-3.jpg" />
+            <div class="caption2">
+              <p>3 Nights/4 Days</p>
+              <p>Cochin - Munnar - Thekkedy - Cochin</p>
+              <p>Starting Price<br><span class="price"><del>र</del> 21,500</span></p>
+            </div>
+            <div>
+              <input class="sixcol btn btn-primary" type="button" name="" value="View Details">
+              <input class="sixcol btn btn-danger last" type="button" name="" value="Enquire">
+            </div>
+          </li>
+        </ul>
+      </div>
+    </figure>
+  </section>
+  <!--Package section close--> 
+  
+  <!--Honeymoon section start-->
+  <section class="twelvecol">
+    <section class="fourcol">
+      <figure class="honeymoon-ad-warp">
+        <h3 class="title-white">Honeymoon</h3>
+        <img src="images/bg-slides/bg-4.jpg" alt="">
+        <div class="black-opac">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>Honeymoon in Manali</td>
+              <td><span class="dayz">2N-3D /</span> <span class="rs WebRupee">&#x20B9; 25,800</span></td>
+            </tr>
+            <tr>
+              <td>A Romantic Weekend in Pink City</td>
+              <td><span class="dayz">2N-3D /</span> <span class="rs WebRupee">&#x20B9; 23,080 </span></td>
+            </tr>
+            <tr>
+              <td>Romantic Weekend in Mount Abu</td>
+              <td><span class="dayz">2N-3D /</span> <span class="rs WebRupee">&#x20B9; 25,600</span></td>
+            </tr>
+            <tr>
+              <td>An Offbeat Weekend in Dadhikar</td>
+              <td><span class="dayz">2N-3D /</span> <span class="rs WebRupee">&#x20B9; 30,000</span></td>
+            </tr>
+          </table>
+        </div>
+      </figure>
+    </section>
+    
+    <!--banner section start-->
+    <section class="eightcol last"> 
+      <!--holiday section start-->
+      <section class="twelvecol">
+        <figure class="featured-holoday-warp" style="height: 300px">
+          <h3 class="title-white">Holiday Ideas</h3>
+          <div id="featholi-slider" class="flexslider carousel">
+            <ul class="slides">
+              <li> <a href="http://myholidaytrip.com/Pages/ContentPage.aspx?PageId=56&displaytype=Single&groupId=0"> <img src="images/adventure-holidays.jpg" alt="adventure-holidays" /></a> </li>
+              <li> <a href="http://myholidaytrip.com/Pages/ContentPage.aspx?PageId=60&displaytype=Single&groupId=0"> <img src="images/hill-station-holidays.jpg" alt="hill-station-holidays" /></a> </li>
+              <li> <img src="images/backwater-holidays.jpg" alt="backwater-holidays"> </li>
+              <li> <a href="http://myholidaytrip.com/Pages/ContentPage.aspx?PageId=57&displaytype=Single&groupId=0"> <img src="images/waterfall-holidays.jpg" alt="waterfall-holidays"></a> </li>
+              <li> <a href="http://myholidaytrip.com/Pages/ContentPage.aspx?PageId=58&displaytype=Single&groupId=0"> <img src="images/beach-holidays.jpg" alt="beach-holidays" /></a> </li>
+              <li> <a href="http://myholidaytrip.com/Pages/ContentPage.aspx?PageId=31&displaytype=Single&groupId=0"> <img src="images/wildlife-holidays.jpg" alt="wildlife-holidays" /></a> </li>
+            </ul>
+          </div>
+        </figure>
+      </section>
+      <!--holiday section end--> 
+    </section>
+  </section>
+  <!--banner section end--> 
+  <!--Honeymoon section close--> 
+  <!--banner section start-->
+  <section class="twelvecol">
+    <figure class="testimonials-wrap">
+      <h3 class="title-trans">What Customers Say About Us!</h3>
+      <div id="testimonial-slider" class="flexslider carousel">
+        <ul class="slides">
+          <li>
+            <table cellpadding="2">
+              <tr>
+                <td style="padding: 4px; width: 120px" align="center"><img src="images/user.jpg" alt="" /></td>
+                <td valign="top" style="padding: 4px 20px 4px 4px"><div class="cap">By Vasim from Mumbai, India </div>
+                  <p>1) You can modify plan according to your interest. <br />
+                    2) Driver was very much friendly and he drove the car very safely. <br />
+                    3) They booked the best view room for us. 4)Easy mode of payment </p>
+                  <br />
+                  <p><a href="#"> Read more...</a></p></td>
+              </tr>
+            </table>
+          </li>
+          <li>
+            <table cellpadding="2">
+              <tr>
+                <td style="padding: 4px; width: 120px" align="center"><img src="images/user.jpg" alt="" /></td>
+                <td valign="top" style="padding: 4px 20px 4px 4px"><br />
+                  <p>Never quite anticipated that the trip will be this good ! All arrangements were near perfection. A new comfortable vehicle, a very competent and friendly driver, comfortable and hospitable accommodations all were part of the stay for 13 days</p>
+                  <p>Never quite anticipated that the trip will be this good ! All arrangements were near perfection. </p>
+                  <br />
+                  <p><a href="#"> Read more...</a></p></td>
+              </tr>
+            </table>
+          </li>
+          <li>
+            <table cellpadding="2">
+              <tr>
+                <td style="padding: 4px; width: 120px" align="center"><img src="images/user.jpg" alt="" /></td>
+                <td valign="top" style="padding: 4px 20px 4px 4px"><br />
+                  <p> Great experience. Dealt with Mr. Kapil Sharma from Trip Login who was quite helpful in setting up the Itinerary. </p>
+                  <br />
+                  <p><a href="#"> Read more...</a></p></td>
+              </tr>
+            </table>
+          </li>
+          <li>
+            <table cellpadding="2">
+              <tr>
+                <td style="padding: 4px; width: 120px" align="center"><img src="images/user.jpg" alt="" /></td>
+                <td valign="top" style="padding: 4px 20px 4px 4px"><div class="cap">By Vinayak Kulkarni from ahmedabad, India </div>
+                  <p> 1) U can modify plan according to your interest. And they provide you the best deal 2) Driver was very much friendly and he drove the car very safely. 3) They booked the best view room for us. 4)Easy mode of payment </p>
+                  <br />
+                  <p><a href="#"> Read more...</a></p></td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </div>
+    </figure>
+  </section>
+  <!--banner section end--> 
+</article>
+
+<!-- content end --> 
+
+<!-- footer start -->
+<footer>
+  <article class="twelvecol">
+    <section class="explore-directory">
+      <div class="row">
+        <aside class="threecol">
+          <div class="compoverview">
+            <h2>MyHolidayTrip</h2>
+            <span class="punch">one stop solutions for your holiday</span> <br />
+            <p style="text-align: justify"  class="top_marg">MyHolidayTrip is one of the leading Tour Operators in India with head office in Delhi and branch offices in several parts of the country and abroad (Singapore and Thailand). <br />
+              <br />
+              We serve a huge network of travelers, with hundreds of associated travel agents across the nation. </p>
+            <br />
+            <a href="#">Read more...</a> </div>
+        </aside>
+        <aside class="threecol">
+          <div class="quicklinks">
+            <h2>Quick Links</h2>
+            <hr />
+            <ul>
+              <li><a href="#"><i class="icon-angle-right"></i> Kerala Tour Packages</a></li>
+              <li><a href="#"><i class="icon-angle-right"></i> Honeymoon Packages</a></li>
+              <li><a href="#"><i class="icon-angle-right"></i> Himachal Tour Packages</a></li>
+              <li><a href="#"><i class="icon-angle-right"></i> Kashmir Tour Packages</a></li>
+              <li><a href="#"><i class="icon-angle-right"></i> Houseboat Packages</a></li>
+              <li><a href="#"><i class="icon-angle-right"></i> North India Packages</a></li>
+              <li><a href="#"><i class="icon-angle-right"></i> Manali Tour Packages</a></li>
+            </ul>
+          </div>
+        </aside>
+        <aside class="threecol">
+          <div class="contact-box">
+            <h2>Contact</h2>
+            <hr />
+            <table cellpadding="4">
+              <tr>
+                <td valign="top" style="width:20px"><i class="icon-home"></i></td>
+                <td>Plot No.5, 2nd Floor, Tilak Nagar Industrial Area,
+                  Near Subash Nagar Metro Station, Delhi - 110018</td>
+              </tr>
+              <tr>
+                <td valign="top"><i class="icon-phone-sign"></i></td>
+                <td>+91-11 47824742</td>
+              </tr>
+              <tr>
+                <td valign="top"><i class="icon-envelope"></i></td>
+                <td> info@myholidaytrip.com</td>
+              </tr>
+            </table>
+          </div>
+        </aside>
+        <aside class="threecol last">
+          <div class="newsletter-box">
+            <h2>Newsletter</h2>
+            <hr />
+            Subscribe to our newsletter and get updated with the latest holiday packages, offers etc..
+            <aside class="fultwelvecol">
+              <input name="" type="text" placeholder="Your name?" class="top_marg">
+            </aside>
+            <aside class="fultwelvecol">
+              <input name="" type="text" placeholder="Email address?" class="top_marg">
+            </aside>
+            <aside class="fultwelvecol">
+              <input class="sixcol btn btn-warning" type="button" name="" value="Submit" style="margin-top:10px">
+            </aside>
+            <span class="clear"> </span> </div>
+        </aside>
+      </div>
+    </section>
+  </article>
+  <article class="row footernav">
+    <section class="twocol">
+      <aside class="social-icon">
+      <a href="javascript:void(0)" title=""><i class="icon-facebook-sign"></i></a>
+      <a href="javascript:void(0)" title=""><i class="icon-twitter-sign"></i></a>
+      <a href="javascript:void(0)" title=""><i class="icon-youtube-play"></i></a>
+      </aside>
+    </section>
+    <section class="sixcol">
+      <div class="bottomlinks">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">T&amp;C</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Cancellation &amp; Refund</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="threecol pull-right" >
+      <div class="pull-right" style="text-align: right; line-height: 30px"> &copy; 2015 MyHolidayTrip, All Rights Reserved </div>
+    </section>
+  </article>
+</footer>
+<!-- footer end --> 
+
+<!-- Slide out Start -->
+<div class="slide_out" style="position: fixed; height: 310px; top: 200px; left: -3px;padding:25px 10px 25px 30px">
+  <p><strong> Please take a moment and write your feedback so that we can improve our services.</strong></p>
+  <p>
+    <input name="ctl00$txtName" type="text" id="txtName" placeholder="Your Name">
+    <span id="rfvName" style="visibility:hidden;">*</span> </p>
+  <p>
+    <input name="ctl00$txtEmail" type="text" id="txtEmail" placeholder="Your Email">
+    <span id="RequiredFieldValidator1" style="visibility:hidden;">*</span> </p>
+  <p>
+    <select name="ctl00$ddlArea" id="ddlArea">
+      <option value="0">Select area where we should improve</option>
+      <option value="1">More package options</option>
+      <option value="2">Offers and Discounts</option>
+      <option value="3">Destinations</option>
+      <option value="4">More informative</option>
+    </select>
+    <span id="RequiredFieldValidator2" style="display:none;">*</span> </p>
+  <p>
+    <textarea name="ctl00$txtFeedback" rows="2" cols="20" id="txtFeedback" placeholder="Your Message"></textarea>
+    <span id="RequiredFieldValidator3" style="visibility:hidden;">*</span> </p>
+  <p>
+    <input type="submit" name="ctl00$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnSubmit&quot;, &quot;&quot;, true, &quot;feedback&quot;, &quot;&quot;, false, false))" id="btnSubmit" class="btn btn-success twelvecol" style="width:90%;">
+  </p>
+  <a class="handle" style="width: 40px; height: 330px; display: block; text-indent: -99999px; position: absolute; top: 85px; right: -40px; background: url(http://www.myholidaytrip.com/images/feedback-panel-btn.png) no-repeat;"></a> </div>
+<!-- Slide out Close --> 
+
+<!-- Nav -->
+<link rel="stylesheet" href="plugins/nav/nav.css" type="text/css">
+<script src="plugins/nav/modernizr.custom.js"></script> 
+<script src="plugins/nav/classie.js"></script> 
+
+<!-- Flexslider -->
+<link rel="stylesheet" href="plugins/flexslider/flexslider.css" type="text/css">
+<script src="plugins/flexslider/modernizr.js"></script> 
+<script src="plugins/flexslider/jquery.flexslider.js"></script> 
+
+<!--Dropdown--> 
+<script src="js/dropdown.js"></script> 
+
+<!--Elastislide-->
+<link rel="stylesheet" href="plugins/elastislide/elastislide.css" />
+<script src="plugins/elastislide/modernizr.custom.17475.js"></script> 
+<script src="plugins/elastislide/jquery.elastislide.js"></script> 
+
+<!--Accordian--> 
+<script src="plugins/accordian/accordian.js"></script>
+<link rel="stylesheet" href="plugins/accordian/accordian.css" />
+
+<!--Tabslide--> 
+<script src="js/tabslide.js"> </script> 
+
+<!--Tabify--> 
+<script src="plugins/tab/jquery.tabify-1.4.source.js"></script> 
+
+<!--Nav Slectbox--> 
+<script src="js/nav-select.js"></script> 
+<script>
+$('.tab').tabify();
+</script> 
+<script>
+$('.tabify').tabify();
+</script> 
+<script src="plugins/flexslider/flexslider-custom.js"> </script> 
+<script>
+  var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),				
+  showLeftPush = document.getElementById( 'showLeftPush' ),
+  body = document.body;
+  showLeftPush.onclick = function() {
+    classie.toggle( this, 'active' );
+    classie.toggle( body, 'cbp-spmenu-push-toright' );
+    classie.toggle( menuLeft, 'cbp-spmenu-open' );
+    disableOther( 'showLeftPush' );
+    };
+    function disableOther( button ) {
+      if( button !== 'showLeftPush' ) {
+      classie.toggle( showLeftPush, 'disabled' );
+      }				
+  }
+</script>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,600italic,700' rel='stylesheet' type='text/css'>
+</body>
+</html>
